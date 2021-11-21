@@ -21,13 +21,19 @@ function decrementClick() {
 var counterVal2 = 0;
 function incrementClick2() {
     counterVal2++;
+    val2 = counterVal2 * 200
     document.getElementById("counter-label2").innerHTML = counterVal2;
+    document.getElementById("counter-label_b2").innerHTML = counterVal2;
+    document.getElementById("account2").innerHTML = val2;
 }
 function decrementClick2() {  
     if(0 < counterVal2) {
         counterVal2--;
+        val2 = counterVal2 * 200
     }
     document.getElementById("counter-label2").innerHTML = counterVal2;
+    document.getElementById("counter-label_b2").innerHTML = counterVal2;
+    document.getElementById("account2").innerHTML = val2;
 }
 
 var counterVal3 = 0;
